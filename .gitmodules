@@ -1,0 +1,3 @@
+[submodule "ejdict/EJDict"]
+	path = ejdict/EJDict
+	url = git@github.com:kujirahand/EJDict.git
