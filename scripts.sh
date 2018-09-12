@@ -14,6 +14,6 @@ elif [ $1 = "ejdict" ]; then
     if [ $? -eq 0 ]; then
         echo "message-info $word" >> "$QUTE_FIFO"
     else
-        echo "message-error 'Cannot find \"$2\" in a dictionary'" >> "$QUTE_FIFO"
+        echo "message-error 'Cannot find \"$QUTE_SELECTED_TEXT\" in a dictionary'" >> "$QUTE_FIFO"
     fi
 fi
