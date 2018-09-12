@@ -24,3 +24,4 @@ When you select an english word on a webpage and execute this script, japanese t
 
   * [EJDict "ejdic-hand"](https://github.com/kujirahand/EJDict)
 
+![Screenshot of ejdict](./screenshot/screenshot_ejdict.jpg)
