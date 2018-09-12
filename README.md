@@ -12,7 +12,7 @@ Scripts are written in Python3 and Bash script.
 
 dir: pocket  
 
-You need get your consumer key and access token.  
+You need to get your consumer key and access token.  
 
 ## Simple English-Japanese dictionary
 
