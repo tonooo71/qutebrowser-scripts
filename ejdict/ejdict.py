@@ -26,6 +26,9 @@ with open(us_dir+'/ejdict/EJDict/src/ejdic-hand-utf8.txt') as lines:
             if line.startswith(word[:-3]+'\t'):
                 print(line)
                 break
+            elif line.startswith(word[:-3]+'e\t'):
+                print(line)
+                break
         # 過去形
         if word[-1] == 'd':
             if line.startswith(word[:-1]+'\t'):
