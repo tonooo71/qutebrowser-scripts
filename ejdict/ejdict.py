@@ -5,12 +5,12 @@ import sys
 word = sys.argv[1].lower()
 us_dir = os.environ['HOME']+'/.local/share/qutebrowser/userscripts'
 
-with open(us_dir+'/ejdict/EJDict/src/ejdic-hand-utf8.txt') as lines:
+with open(us_dir+'/ejdict/EJDict/release/ejdic-hand-utf8.txt') as lines:
     for line in lines:
         if line.startswith(word+'\t'):
             print(line)
             sys.exit(0)
-with open(us_dir+'/ejdict/EJDict/src/ejdic-hand-utf8.txt') as lines:
+with open(us_dir+'/ejdict/EJDict/release/ejdic-hand-utf8.txt') as lines:
     for line in lines:
         # 複数形, 三人称単数形
         if word[-1] == 's':
